@@ -14,5 +14,13 @@
     "express": "^4.17.1",
     "mongoose": "^6.0.13"
   },
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnicassere/m03Back.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnicassere/m03Back/issues"
+  },
+  "homepage": "https://github.com/johnicassere/m03Back#readme"
 }

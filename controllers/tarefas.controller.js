@@ -23,7 +23,7 @@ class TarefasController {
       })
       .catch((err) => {
         console.log(err);
-        res.status(500).send({ message: `Erro no servidor` });
+        res.status(500).send({ message: `Erro no servidor: ${err}` });
       });
   };
 
@@ -36,7 +36,7 @@ class TarefasController {
         res.send({ message: `Tarefa editada com sucesso` });
       })
       .catch((err) => {
-        res.status(500).send({ message: `Erro: $(err) ` });
+        res.status(500).send({ message: `Erro: ${err} ` });
       });
   };
 
